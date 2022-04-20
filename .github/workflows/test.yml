@@ -12,3 +12,7 @@ jobs:
       with:
         name: DiagnosticReports
         path: ~/Library/Logs/DiagnosticReports/
+    - run: |
+        ls /usr/local/opt/runner/provisioner/provisioner
+        /usr/local/opt/runner/provisioner/provisioner --help
+        
