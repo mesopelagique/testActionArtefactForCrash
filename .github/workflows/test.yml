@@ -14,4 +14,5 @@ jobs:
         path: ~/Library/Logs/DiagnosticReports/
     - run: |
         ls -la /usr/local/opt/runner/provisioner/provisioner
+        find . /usr/local/opt/runner/
         
